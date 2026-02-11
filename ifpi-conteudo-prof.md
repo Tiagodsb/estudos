@@ -2,6 +2,8 @@
 
 ## CONHECIMENTOS ESPECÍFICOS
 
+Início: 11/02/2026
+
 Algoritmos Lógica de Programação e Estrutura de Dados;
 Sistemas Operacionais;
 Programação Orientada a Objetos;
