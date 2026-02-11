@@ -15,6 +15,55 @@ Programação Web;
 Programação para dispositivos móveis;
 Inteligência Artificial e Ciência de Dados.
 
+### PROGRAMAÇÃO ORIENTADA A OBJETOS
+
+#### MÉTODOS ESTÁTICOS
+
+Métodos que pertencem a classe, e não ao objeto.
+Podem ser chamados sem instanciar.
+Não podem ser alterados por sobrescrita(polimorfismo)
+
+#### ENCAPSULAMENTO
+
+Encapsulamento estrito - os atributos são realmente privados, não dá pra acessar
+de fora da classe, apenas indiretamente por meio de get e set. 
+Python não tem essa funcionalidade, Java possui.
+
+~~~
+class Pessoa:
+    def __init__(self):
+            self.__idade = 18
+~~~
+
+Nesse exemplo nada impede que alguém faça:
+
+~~~
+p.Pessoa__idade
+~~~
+
+Agora se for em Java:
+
+~~~
+{ private int idade;} //dentro da classe
+
+p.idade //fora da classe gera um erro de compilação
+~~~
+
+#### ABSTRAÇÃO
+
+(IFPA-2024) Classes abstratas não podem ser instanciadas, elas apenas são uma base que devem
+ser herdadas por classes que serão instanciadas.
+
+Elas permitem herança múltipla(IFES-2024)? Python e C++ permitem, Java e C# não.
+
+Uma subclasse de uma classe abstrata só será ***concreta(instanciável)*** se implementar todos
+os métodos abstratos herdados.
+
+#### POLIMORFISMO
+
+Permite a redefinição de métodos estáticos(IFES-2024)? Não! [métodos
+estáticos](#metodos-estaticos)
+
 ### ALGORITMOS E ESTRUTURAS DE DADOS    
 
 #### ESTRUTURAS HETEROGÊNEAS X HOMOGÊNEAS
@@ -86,8 +135,6 @@ pré-ordem(pré-fixado): 8 4 3 6 5 9
 ordem(in-ordem): 3 4 5 6 8 9
 pós-ordem(pós-fixado): 3 5 6 4 9 8
  
-
-
 
 #### PORTUGUÊS ESTRUTURADO
 
