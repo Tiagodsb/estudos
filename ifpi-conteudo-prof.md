@@ -57,13 +57,16 @@ FIFO(First In First Out) ou PEPS(Primeiro a Entrar Primeiro a Sair).
 90  80    70    40
 ~~~
 
-Pré-ordem(normal -> raiz esquerda direita): 60 10 50 90 80  20  100 70 30 40 
+Pré-ordem(normal -> raiz esquerda direita): 60 10 50 90 80  20  100 70 30 40
+
 Pré-ordem(inversa-> raiz direita esquerda): 60 20 30 40 100 70  10  50 80 90
 
 Em-Ordem(normal  -> esquerda raiz direita): 90 50 80 10 60  100 70  20 30 40 
+
 Em-Ordem(inversa -> direita raiz esquerda): 40 30 20 70 100 60  10  80 50 90  
 
 Pós-Ordem(normal -> esquerda direita raiz): 90 80 50 10  70 100 40  30 20 60 
+
 Pós-Ordem(inversa-> direita esquerda raiz): 40 30 70 100 20 80  90  50 10 60
 
 #### PORTUGUÊS ESTRUTURADO
