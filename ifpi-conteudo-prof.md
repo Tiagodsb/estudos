@@ -69,6 +69,26 @@ Pós-Ordem(normal -> esquerda direita raiz): 90 80 50 10  70 100 40  30 20 60
 
 Pós-Ordem(inversa-> direita esquerda raiz): 40 30 70 100 20 80  90  50 10 60
 
+
+Questão(IFPA-2022):
+
+~~~
+    8
+   / \
+  4   9
+ / \
+3   6
+   /
+  5
+~~~
+
+pré-ordem(pré-fixado): 8 4 3 6 5 9
+ordem(in-ordem): 3 4 5 6 8 9
+pós-ordem(pós-fixado): 3 5 6 4 9 8
+ 
+
+
+
 #### PORTUGUÊS ESTRUTURADO
 
 #### MATRIZES
